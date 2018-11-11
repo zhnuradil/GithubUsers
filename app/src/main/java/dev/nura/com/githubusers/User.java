@@ -1,5 +1,7 @@
 package dev.nura.com.githubusers;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Objects;
 
 /**
@@ -7,7 +9,10 @@ import java.util.Objects;
  */
 public final class User {
 
+    @SerializedName("login")
     private String name;
+
+    @SerializedName("avatar_url")
     private String avatarUrl;
 
     public User(String name, String avatarUrl) {

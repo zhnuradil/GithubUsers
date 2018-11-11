@@ -50,6 +50,11 @@ public class UserRecyclerAdapter extends RecyclerView.Adapter<UserRecyclerAdapte
         return users.size();
     }
 
+    public void update(List<User> list) {
+        users = list;
+        notifyDataSetChanged();
+    }
+
     class UserViewHolder extends RecyclerView.ViewHolder {
 
         private TextView nameTv;
