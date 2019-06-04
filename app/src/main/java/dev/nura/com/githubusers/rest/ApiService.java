@@ -1,8 +1,9 @@
-package dev.nura.com.githubusers;
+package dev.nura.com.githubusers.rest;
 
 import java.util.List;
 
-import retrofit2.Call;
+import dev.nura.com.githubusers.pojo.User;
+import io.reactivex.Single;
 import retrofit2.http.GET;
 
 /**
@@ -11,5 +12,5 @@ import retrofit2.http.GET;
 public interface ApiService {
 
     @GET("users")
-    Call<List<User>> getUsers();
+    Single<List<User>> getUsers();
 }

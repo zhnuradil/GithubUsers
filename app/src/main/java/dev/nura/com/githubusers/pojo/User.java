@@ -1,4 +1,4 @@
-package dev.nura.com.githubusers;
+package dev.nura.com.githubusers.pojo;
 
 import com.google.gson.annotations.SerializedName;
 

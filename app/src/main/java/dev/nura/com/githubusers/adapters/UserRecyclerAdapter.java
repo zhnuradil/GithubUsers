@@ -1,4 +1,4 @@
-package dev.nura.com.githubusers;
+package dev.nura.com.githubusers.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,6 +13,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
 import java.util.List;
+
+import dev.nura.com.githubusers.R;
+import dev.nura.com.githubusers.pojo.User;
 
 /**
  * Created by nura on 11.11.2018.
